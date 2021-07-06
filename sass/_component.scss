@@ -1,0 +1,76 @@
+.ctaBtn{
+    height: 5rem;
+    width: 32rem;
+    text-align: center;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    background-color: var(--textColor);
+    color: var(--colorPrimary);
+    font-size: 1.8rem;
+    border-radius: 2.3rem;
+    cursor: pointer;
+    font-family: inherit;
+    margin-top: 2rem;
+}
+
+.notification{
+    width: .9rem;
+    height: .9rem;
+    border-radius: 50%;
+    background-color: var(--colorPrimary);
+    position: absolute;
+    right: 8%;
+    top: 16%;
+}
+
+.cart {
+    // border: solid;
+    height: 100%;
+}
+
+.checkOutBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+    width: 100%;
+    height: 5rem;
+    outline: none;
+    border: none;
+    background-color: var(--colorPrimary);
+    color: #ffff;
+    cursor: pointer;
+    border-radius: 0 0 5rem 5rem;
+    margin-bottom: 1rem;
+}
+
+.sideIcon {
+
+    position: absolute;
+    bottom: 1rem;
+    left: 2rem;
+}
+
+.heartIcon {
+
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+
+}
+
+.width {
+    width: 100%;
+}
+
+.color {
+    border: solid 1px #c5c5c5 !important;
+    margin-right: 1rem;
+}
+
+.cart {
+    margin-top: .5rem;
+    display: flex;
+    align-items: center;
+}

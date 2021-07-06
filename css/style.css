@@ -1,0 +1,301 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+body {
+  font-size: 1.4rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  background-color: var(--colorPrimary);
+  color: var(--textColor);
+  padding: 2.4rem; }
+
+.body__wrapper {
+  overflow-x: hidden; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+.body2 {
+  background-color: #fafafa;
+  font-size: 1.4rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  padding: 0rem 2.4rem;
+  color: #454745; }
+
+.body3 {
+  padding: 0;
+  background-color: #fafafa;
+  font-size: 1.4rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #454745; }
+
+.ctaBtn {
+  height: 5rem;
+  width: 32rem;
+  text-align: center;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  background-color: var(--textColor);
+  color: var(--colorPrimary);
+  font-size: 1.8rem;
+  border-radius: 2.3rem;
+  cursor: pointer;
+  font-family: inherit;
+  margin-top: 2rem; }
+
+.notification {
+  width: .9rem;
+  height: .9rem;
+  border-radius: 50%;
+  background-color: var(--colorPrimary);
+  position: absolute;
+  right: 8%;
+  top: 16%; }
+
+.cart {
+  height: 100%; }
+
+.checkOutBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3rem;
+  width: 100%;
+  height: 5rem;
+  outline: none;
+  border: none;
+  background-color: var(--colorPrimary);
+  color: #ffff;
+  cursor: pointer;
+  border-radius: 0 0 5rem 5rem;
+  margin-bottom: 1rem; }
+
+.sideIcon {
+  position: absolute;
+  bottom: 1rem;
+  left: 2rem; }
+
+.heartIcon {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem; }
+
+.width {
+  width: 100%; }
+
+.color {
+  border: solid 1px #c5c5c5 !important;
+  margin-right: 1rem; }
+
+.cart {
+  margin-top: .5rem;
+  display: flex;
+  align-items: center; }
+
+.header-1 {
+  font-size: 3rem;
+  letter-spacing: 6.5%;
+  text-align: center; }
+
+.description {
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-align: center; }
+
+.price2 {
+  font-weight: 500;
+  font-size: 1.8rem;
+  letter-spacing: 4%; }
+
+.Items {
+  font-size: 1.3rem; }
+
+.discount {
+  position: absolute;
+  top: -5%;
+  left: 50%;
+  transform: translate(-50%);
+  padding: .5rem 1rem;
+  background-color: red;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 3rem; }
+
+.productName {
+  font-size: 2rem; }
+
+.number {
+  background-color: #c5c5c5;
+  height: 2.2rem;
+  line-height: 2.2rem;
+  width: 4.4rem;
+  text-align: center; }
+
+.price {
+  font-size: 2.4rem;
+  color: var(--colorPrimary);
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  margin-top: 1rem; }
+
+.recipeHeader {
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: -0.3px; }
+
+.recipeText {
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: -0.3px; }
+  .recipeText__more {
+    color: var(--colorPrimary); }
+
+.latHead {
+  font-size: 1.8rem; }
+
+.latText {
+  font-size: 1.4rem; }
+
+.navigation {
+  height: 2.172rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.splashImg {
+  position: relative;
+  height: 40vh;
+  margin-top: 10rem; }
+  .splashImg > * {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+.splashHeader {
+  align-items: center;
+  text-align: center; }
+  .splashHeader > * {
+    margin-top: 2rem; }
+
+.menuSection__header {
+  font-size: 2.4rem;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  font-weight: 600; }
+  .menuSection__header > * {
+    margin-left: .5rem; }
+
+.menuSection__subHead {
+  font-size: 1.4rem;
+  font-weight: 400; }
+
+.menuSection__icons {
+  margin: 4rem 0; }
+  .menuSection__icons__childs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .menuSection__icons__childs__child {
+      height: 4.5rem;
+      width: 5.3rem;
+      border: solid 1px #c5c5c5;
+      border-radius: .71rem;
+      text-align: center;
+      vertical-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative; }
+      .menuSection__icons__childs__child:first-child {
+        border: solid 2px var(--colorPrimary); }
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  @media screen and (max-width: 320px) {
+    .products {
+      justify-content: center; } }
+  .products__display {
+    height: 21.3rem;
+    width: 15.3rem;
+    border: 1px solid #c4c4c4;
+    border-radius: 1rem;
+    margin-bottom: 2.5rem;
+    padding: .7rem;
+    text-align: center;
+    position: relative; }
+    .products__display__top {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+    .products__display__img {
+      height: 11.7rem;
+      width: 11.7rem;
+      border-radius: 50%;
+      display: block;
+      overflow: hidden;
+      margin: 0 auto; }
+      .products__display__img__img {
+        transform: translate(-50%, -50%); }
+    .products__display__price {
+      margin-top: 1.5rem;
+      height: 2.7rem;
+      color: var(--colorPrimary);
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+
+.foodDescriptionPhoto {
+  height: 34rem;
+  width: 100%;
+  border-radius: 0 0 4rem 4rem;
+  display: block;
+  overflow: hidden;
+  position: relative; }
+
+.about {
+  width: 100%;
+  padding: .5rem 2.4rem;
+  margin-top: 2.2rem; }
+  .about__food {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .about__food__cart {
+      display: flex;
+      align-items: center; }
+  .about__recipe {
+    margin-top: 1.5rem; }
+
+.delivery {
+  margin-top: 2.2rem; }
+  .delivery > * {
+    margin-bottom: 2.6rem; }
+  .delivery__lat {
+    display: flex;
+    align-items: center; }
+
+:root {
+  --colorPrimary: #3FC979;
+  --colorSecondary: #03045E;
+  --colorTetiary: #023E8A;
+  --textColor: #ffff;
+  --black: #000; }

@@ -1,0 +1,166 @@
+.splashImg{
+    position: relative;
+    height: 40vh;
+    margin-top: 10rem;
+
+    & > * {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.splashHeader{
+    align-items: center;
+    text-align: center;
+    & > * {
+        margin-top: 2rem;
+    }
+}
+
+.menuSection{
+
+    &__header{
+        font-size: 2.4rem;
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+
+        & > * {
+            margin-left: .5rem;
+        }
+    }
+
+    &__subHead {
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+    &__icons{
+        margin: 4rem 0;
+
+        &__childs{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &__child{
+                height: 4.5rem;
+                width: 5.3rem;
+                border: solid 1px #c5c5c5;
+                border-radius: .71rem;
+                text-align: center;
+                vertical-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+
+                &:first-child{
+                    border: solid 2px var(--colorPrimary);
+                }
+            }
+        }
+       
+    }
+}
+
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    @media screen and (max-width:320px) {
+        justify-content: center;
+    }
+
+
+    &__display {
+        height: 21.3rem;
+        width: 15.3rem;
+        border: 1px solid #c4c4c4;
+        border-radius: 1rem;
+        margin-bottom: 2.5rem;
+        padding: .7rem;
+        text-align: center;
+        position: relative;
+
+        &__top{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &__img {
+            height: 11.7rem;
+            width: 11.7rem;
+            border-radius: 50%;
+            display: block;
+            overflow: hidden;
+            margin: 0 auto;
+
+            &__img {
+                transform: translate(-50%, - 50%);
+            }
+        }
+
+        &__price{
+            margin-top: 1.5rem;
+            height: 2.7rem;
+            color: var(--colorPrimary);
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}
+
+
+.foodDescriptionPhoto{
+    height: 34rem;
+    width: 100%;
+    border-radius: 0 0 4rem 4rem;
+    display: block;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.about {
+    width: 100%;
+    padding: .5rem 2.4rem;
+    margin-top: 2.2rem;
+
+    &__food {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__cart{
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    &__recipe {
+        margin-top: 1.5rem;
+    }
+}
+
+.delivery {
+    margin-top: 2.2rem;
+
+    & > * {
+        margin-bottom: 2.6rem;
+    }
+
+    &__lat {
+        display: flex;
+        align-items: center;
+
+    }
+}
